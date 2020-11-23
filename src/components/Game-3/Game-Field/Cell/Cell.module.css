@@ -1,0 +1,9 @@
+.cell {
+    border: #282c34 solid 3px;
+    background: #61dafb;
+}
+
+.cross {
+    border: dimgrey solid 3px;
+    background: blue;
+}

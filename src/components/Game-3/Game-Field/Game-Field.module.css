@@ -1,0 +1,10 @@
+.gameField {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
