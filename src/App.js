@@ -19,7 +19,7 @@ const App = (props) => {
                     />}
                 />
                 <Route path='/3x3' render={() =>
-                    <Game3 Page3={props.state.Page3}/>}
+                    <Game3 state={props.state}/>}
                 />
                 <Route path='/4x4' render={() =>
                     <Game4 Page4={props.state.Page4}/>}
